@@ -87,47 +87,32 @@ title: Blog
                     </h2>
                     <hr>
                 </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
-                    <h2>Props
-                        <br>
-                        <small>Mayo 2016</small>
-                    </h2>
-                    <p>Algunas bocetos de plantas</p>
+                {% for post in site.posts %}
+
+					<div class="col-lg-12 text-center">
+						<img class="img-responsive img-border img-full" src="img/{{ post.id }}.jpg" alt="">
+						<h2>{{ post.title }}
+							<br>
+							<small>{{ post.date | date: "%b %d %Y" }}</small>
+						</h2>
+						<p>{{ post.description }}</p>
 								
-                    <!-- <a href="#" class="btn btn-default btn-lg">Read More</a>  -->
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
-                    <h2>Paleta de colores
-                        <br>
-                        <small>Mayo 2016</small>
-                    </h2>
-                    <p>Paleta de colores inicial</p>
-                     <!-- <a href="#" class="btn btn-default btn-lg">Read More</a>  -->
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
-                    <h2>Bocetos de Margarito
-                        <br>
-                        <small>Abril 2016</small>
-                    </h2>
-                    <p>Bocetos de nuestro prota</p>
-                     <!-- <a href="#" class="btn btn-default btn-lg">Read More</a>  -->
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-				<!-- 
+						<a href="{{ post.url }}" class="btn btn-default btn-lg">Read More</a>
+						<hr>
+					</div>				
+				{% endfor %}
+                
+                <!-- <div class="col-lg-12 text-center">
+				
                     <ul class="pager">
                         <li class="previous"><a href="#">&larr; Older</a>
                         </li>
                         <li class="next"><a href="#">Newer &rarr;</a>
                         </li>
                     </ul>
-				 -->
-                </div>
+				 
+                </div>-->
+				
             </div>
         </div>
 

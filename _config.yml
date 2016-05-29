@@ -3,5 +3,7 @@ lang: es
 
 name: Dry Fly
 
+permalink: ./:year/:month/:title/
+  
 exclude:
   - README.md
