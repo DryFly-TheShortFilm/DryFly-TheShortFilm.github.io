@@ -1,6 +1,7 @@
-﻿encoding: utf-8
+encoding: utf-8
+lang: es
 
-title: DryFly - the short film
+name: Dry Fly
 
 exclude:
   - README.md
