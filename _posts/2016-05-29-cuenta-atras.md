@@ -13,4 +13,4 @@ El 10 de Junio presentaremos a nuestros compañeros del [Máster en Animación](
 Estamos ultimando algunos detalles para la presentación, y deseando ver los increíbles pitch que seguro han preparado los otros grupos.
 ¡Deseadnos suerte!
 
-![Descripción imagen](/img/{{ post.id }}.jpg)
+![Descripción imagen](/img/{{ page.id }}.jpg)
