@@ -7,6 +7,7 @@
 Create a new file in the [_post folder](https://github.com/DryFly-TheShortFilm/DryFly-TheShortFilm.github.io/tree/master/_posts).
 
 The file name must be something like *2016-07-11-summa-3d.md* where *2016-07-11* is the date and *summa-3d* will appear in the URL post.
+DON'T FORGET: .md 
 
 The file must start with a [frontmatter](https://jekyllrb.com/docs/frontmatter/) that looks like
 
@@ -18,7 +19,7 @@ tags:
   - margarito
   - dryfly
   - 3D
-  - Animción
+  - Animación
   - premio
 description: >
     Margarito arrasa allá donde va
